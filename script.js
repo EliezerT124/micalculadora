@@ -1,3 +1,6 @@
+function onBodyLoad(){
+    alert('Bienvenido a mi calculador. espero que te guste')
+}
 function onBtnLimpiar_Click() {
     document.getElementById("valor1").value = "";
     document.getElementById("valor2").value = "";
